@@ -8,6 +8,20 @@
   <name>hiring Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    <dependencies>
+    <!-- Add JAXB Dependencies for Java 11 and above -->
+    <dependency>
+        <groupId>javax.xml.bind</groupId>
+        <artifactId>jaxb-api</artifactId>
+        <version>2.3.1</version>
+    </dependency>
+    <dependency>
+        <groupId>org.glassfish.jaxb</groupId>
+        <artifactId>jaxb-runtime</artifactId>
+        <version>2.3.1</version>
+    </dependency>
+</dependencies>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
